@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: f7e80ce119c0bf94a910cbb62d7c734e
+  productGUID: c06690dd8ef623b4eb2cb08a006ee700
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: holbertonschool-unity
+  productName: unity_concepts
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -846,14 +846,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: holbertonschool-unity
+  metroPackageName: unity_concepts
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: holbertonschool-unity
+  metroApplicationDescription: unity_concepts
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -924,10 +924,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 9f40414f-cc28-4c41-abf9-0889f167ad70
+  cloudProjectId: 54155661-ba8a-4071-8acf-d7106134f8cc
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: holbertonschool-unity
+  projectName: unity_concepts 2025-12-24_11-01-53
   organizationId: anishamila724
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
