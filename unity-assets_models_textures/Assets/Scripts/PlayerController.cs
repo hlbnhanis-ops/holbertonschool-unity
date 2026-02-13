@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    private Vector3 basePos;
     // Input Actions References
     InputAction moveAction;
     InputAction jumpAction;
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        basePos = transform.position;
         controller = GetComponent<CharacterController>();
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
@@ -31,6 +33,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
 void Update()
 {
+
+    if(transform.position.y < -10)
+    {
+        transform.position = basePos;
+        return;
+    }
+
     Vector2 moveValue = moveAction.ReadValue<Vector2>();
 
     // 🎯 Mouvement horizontal
