@@ -1271,6 +1271,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7701605974563351838, guid: 0b4f1b533063380488fd068607bb3318, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 500bdab39d88806499dee5f59f0df7b4, type: 2}
+    - target: {fileID: 7701605974563351838, guid: 0b4f1b533063380488fd068607bb3318, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4517315130330156488, guid: 500bdab39d88806499dee5f59f0df7b4, type: 2}
+    - target: {fileID: 7701605974563351838, guid: 0b4f1b533063380488fd068607bb3318, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8603397480655166066, guid: 0b4f1b533063380488fd068607bb3318, type: 3}
       propertyPath: m_Name
       value: ExitButton
