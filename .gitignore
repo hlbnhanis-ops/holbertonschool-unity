@@ -9,3 +9,6 @@ UserSettings/
 # Fichiers OS
 .DS_Store
 Thumbs.db
+
+# Vufonia
+**/Packages/com.ptc.vuforia.engine-11.4.4.tgz
