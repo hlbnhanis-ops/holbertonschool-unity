@@ -5,6 +5,8 @@
 [Bb]uilds/
 [Ll]ogs/
 UserSettings/
+*.csproj
+*.sln
 
 # Fichiers OS
 .DS_Store
